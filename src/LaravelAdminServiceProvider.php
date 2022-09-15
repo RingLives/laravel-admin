@@ -14,7 +14,6 @@ class LaravelAdminServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->registerRoutes();
         $this->registerResources();
         $this->registerMigrations();
         $this->registerPublishing();
