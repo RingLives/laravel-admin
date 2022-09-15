@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Cashier;
+namespace Laravel\LaravelAdmin;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
