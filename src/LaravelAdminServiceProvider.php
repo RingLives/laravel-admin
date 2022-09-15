@@ -58,7 +58,7 @@ class LaravelAdminServiceProvider extends ServiceProvider
      */
     protected function registerMigrations()
     {
-        if (Cashier::$runsMigrations && $this->app->runningInConsole()) {
+        if ($this->app->runningInConsole()) {
             $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         }
     }
