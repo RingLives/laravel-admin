@@ -1,0 +1,45 @@
+{
+    "name": "shohid/laravel-admin",
+    "description": "Laravel project management",
+    "keywords": [
+        "modules",
+        "laravel",
+        "laravel-admin",
+        "module",
+        "plugin"
+      ],
+      "require": {
+        "php": ">=8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.4",
+        "friendsofphp/php-cs-fixer": "^3.6",
+        "laravel/framework": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shohid\\LaravelAdmin\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "shohid",
+            "email": "sohidurr49@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Shohid\\LaravelAdmin\\LaravelAdminServiceProvider"
+          ]
+        }
+    },
+    "minimum-stability": "dev"
+    
+}
