@@ -48,7 +48,7 @@ class LaravelAdminServiceProvider extends ServiceProvider
      */
     protected function registerResources()
     {
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laraveladmin');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-admin');
     }
 
     /**
