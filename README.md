@@ -14,7 +14,7 @@ php artisan vendor:publish --provider="Shohid\\LaravelAdmin\\LaravelAdminService
 
 ## Contributing
 
-Thank you for considering contributing to Cashier! You can read the contribution guide [here](.github/CONTRIBUTING.md).
+Thank you for considering contributing to Cashier! You can read the contribution guide [here](/CONTRIBUTING.md).
 
 ## Security Vulnerabilities
 
