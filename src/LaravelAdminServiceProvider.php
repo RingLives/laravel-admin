@@ -37,7 +37,7 @@ class LaravelAdminServiceProvider extends ServiceProvider
     protected function configure()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/laravel-admin.php', 'laraveladmin'
+            __DIR__.'/../config/laraveladmin.php', 'laraveladmin'
         );
     }   
 
@@ -48,7 +48,7 @@ class LaravelAdminServiceProvider extends ServiceProvider
      */
     protected function registerResources()
     {
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-admin');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laraveladmin');
     }
 
     /**
